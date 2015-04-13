@@ -9,7 +9,7 @@ package org.dimigo.oop;
  * org.dimigo.oop
  *    |_CarTest
  * 
- * 1. 개요 :
+ * 1. 개요 : 차 테스트 객체 
  * 2. 작성일 : 2015. 4. 13.
  * </pre>
  *

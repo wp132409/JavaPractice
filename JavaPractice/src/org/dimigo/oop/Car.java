@@ -9,7 +9,7 @@ package org.dimigo.oop;
  * org.dimigo.oop
  *    |_Car
  * 
- * 1. 개요 :
+ * 1. 개요 : 차 객체
  * 2. 작성일 : 2015. 4. 13.
  * </pre>
  *
