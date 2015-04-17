@@ -19,9 +19,9 @@ package org.dimigo.oop;
 public class StudentTest {
 
 	public static void main(String[] args) {
-		Student s1 = new Student(13, 2, 3, 1);
-		Student s2 = new Student(13, 2, 3, 2, "박명수");
-		Student s3 = new Student(13, 2, 3, 3, "정준하", "안산시");
+		Student s1 = new Student(13, 2, 3, 1, "이름없음", "주소없음", "핸드폰없음");
+		Student s2 = new Student(13, 2, 3, 2, "박명수", "주소없음", "핸드폰없음");
+		Student s3 = new Student(13, 2, 3, 3, "정준하", "안산시", "핸드폰없음");
 		Student s4 = new Student(13, 2, 3, 4, "정형돈", "서울시", "010-444-4444");
 		
 		s1.printStudent();
@@ -29,6 +29,16 @@ public class StudentTest {
 		s3.printStudent();
 		s4.printStudent();
 		
+		s1.setName("유재석");
+		s1.setAddress("수유리");
+		s1.setPhone("010-111-1111");
+		
+		s2.setAddress("서래마을");
+		s2.setPhone("010-222-2222");
+		
+		s2.setPhone("010-333-3333");
+		
+		System.out.println("--------------------------");
 	}
 	
 }
