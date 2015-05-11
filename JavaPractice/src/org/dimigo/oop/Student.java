@@ -51,8 +51,6 @@ public class Student {
 		this.phone = phone;
 	}
 
-
-
 //	public Student(int gisu, int grade, int ban, int number, String name, String address, String phone) {
 //		this.gisu = gisu;
 //		this.grade = grade;
