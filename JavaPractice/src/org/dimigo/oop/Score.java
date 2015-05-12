@@ -31,6 +31,8 @@ public class Score {
 		System.out.print("영어 점수 입력 => ");
 		int eScore = scanner.nextInt();
 		
+		double avg = (kScore + mScore + eScore) / 3;
+		
 		//==================================
 		
 		System.out.println("<점수 출력>\n");
@@ -47,7 +49,7 @@ public class Score {
 								.append(" 점")
 								.append("\n")
 								.append("평균 : ")
-								.append((kScore + mScore + eScore)/3.0)
+								.append(String.format("%.1f", avg))
 								.append(" 점")
 								.append("\n")
 								.append("총점 : ")
