@@ -32,19 +32,16 @@ public class MelonChart {
 		System.out.println("--<< 멜론 챠트 >>--");
 		printList(list);
 		
-		list.add(1, new Music("레옹", "이유갓지"));
-		
 		System.out.println("--<< 2위 곡 추가 >>--");
+		list.add(1, new Music("레옹", "이유갓지"));
 		printList(list);
-		
-		list.set(2, new Music("맙소사", "황태지"));
 		
 		System.out.println("--<< 3위 곡 변경 >>--");
+		list.set(2, new Music("맙소사", "황태지"));
 		printList(list);
 		
-		list.remove(3);
-		
 		System.out.println("--<< 4위 곡 삭제 >>--");
+		list.remove(3);
 		printList(list);
 		
 		System.out.println("--<< 전체 리스트 삭제 >>--");
